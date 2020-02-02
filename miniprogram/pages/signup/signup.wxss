@@ -1,0 +1,5 @@
+/* miniprogram/pages/signup/signup.wxss */
+.input{
+  border: 1px solid gainsboro;
+  margin: 15rpx;
+}

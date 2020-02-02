@@ -1,0 +1,9 @@
+<!--miniprogram/pages/signup/signup.wxml-->
+输入用户名
+<input class='input' bindinput='getName'></input>
+输入用户账号
+<input class='input' bindinput='getZhangHao'></input>
+输入密码
+<input class='input' bindinput='getMiMa'></input>
+<button bindtap='zhuce' type='primary'> 注册 </button>
+

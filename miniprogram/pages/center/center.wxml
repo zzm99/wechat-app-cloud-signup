@@ -1,0 +1,9 @@
+<!--miniprogram/pages/center/center.wxml-->
+<view wx:if="{{!loginOK}}">
+  <button bindtap='zhuce' class='zhuce' type='primary'> 注册 </button>
+  <button bindtap='denglu' class='denglu' type='primary'> 登陆 </button>
+</view>
+<view wx:else class='loginok'>
+  <text>{{name}}</text>
+  <button bindtap='tuichu'>退出</button>
+</view>
